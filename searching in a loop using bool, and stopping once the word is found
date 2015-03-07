@@ -1,0 +1,7 @@
+found = False
+for word in 'Although slavery is commonly thought to be a thing of the past, human trafficking still exists today throughout the United States and globally when traffickers use force, fraud, or coercion to control other people for the purpose of engaging in commercial sex or forcing them to provide labor services against their will.'.split():
+		#have to split entire string to be counted as individual elements
+	if word == 'the': 
+		found = True
+		break
+	print found, word
