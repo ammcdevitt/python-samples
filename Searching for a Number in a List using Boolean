@@ -1,0 +1,8 @@
+found = False
+count = 0
+for value in 9, 23, 5, 76, 12:
+	count = count + 1
+	if value == 5:
+		found = True
+		print 'Value', value, 'found', count, 'spots down on the list'
+			#Value 5 found 3 spots down on the list'
