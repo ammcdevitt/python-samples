@@ -1,0 +1,8 @@
+#variable that contains the largest value we have seen so far
+#if current number we are looking at is larger, it is the new largest value we have seen so far
+
+largest_so_far = None
+for number in 9, 41, 12, 3, 74, 15:
+	if number > largest_so_far:
+		largest_so_far = number
+	print largest_so_far
