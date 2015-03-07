@@ -1,0 +1,14 @@
+xfile = open('femaletraffickers.csv')
+	#opening a csv file
+zfile = xfile.read()
+count = 0
+	#used to count lines in csv file
+for line in zfile:
+	zfile = zfile.strip()
+	count = count + 1
+#print zfile
+	#printing entire contents of a csv file
+#print count
+	#prints total count of lines in csv file, which is 20618
+	if zfile.startswith('NY'):
+		print line'
