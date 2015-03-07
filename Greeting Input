@@ -1,0 +1,9 @@
+def language(greeting):
+	if greeting == 'hello' or greeting == 'yo' or greeting == 'hey':
+		return 'english'
+	elif greeting == 'hola' or greeting == 'buenas noches':
+		return 'spanish'
+	elif greeting == 'bonjour':
+		return 'french'
+
+x = language('hello')
