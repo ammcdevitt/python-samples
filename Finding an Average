@@ -1,0 +1,10 @@
+dividend = 0
+	#variable will be used to add
+divisor = 0
+	#variable will be used to count
+for value in 5.00, 3.00, 7.00, 2.00:
+	divisor = divisor + 1
+		#divisor will be used to keep a running tally of the number of variables
+	dividend = dividend + value
+		#dividend keeps a running total of the values that are added to each other
+	print dividend, divisor, dividend/divisor
